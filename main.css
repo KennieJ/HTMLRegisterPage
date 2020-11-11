@@ -17,7 +17,23 @@ body{
 }
 .form{
     background-color: whitesmoke;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 350px;
     text-align: center;
     margin: auto;
+    border-radius: 10px;
+}
+
+#icon-tray{
+    padding: 2px;
+    text-align: center;
+}
+
+.icon{
+    margin: 5px;
+}
+
+#subbutton{
+    width: 177px;
 }

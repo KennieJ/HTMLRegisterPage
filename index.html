@@ -20,27 +20,31 @@
     <div class="form">
         <form>
             <h3>Sign Up</h3>
-            <input type="text" name="Email" id="email" value="Email" />
-            <br />
-            <br />
-            <input type="text" name="Username" value="Username" />
+            <div id="input">
+                <input type="text" name="Email" id="email" placeholder="Email" />
+                <br />
+                <br />
+                <input type="text" name="Username" placeholder="Username" />
+                <br/>
+                <br/>
+                <input type="password" name="Password" placeholder="Password"/>
+                <br/>
+                <br/>
+                <input type="password" name="Confirm Password" placeholder="Confirm Password"/>
+                <br/>
+                <br/>
+                <button id="subbutton" type="submit">Submit</button>
+            </div>
             <br/>
             <br/>
-            <input type="password" name="Password" value="Password"/>
-            <br/>
-            <br/>
-            <input type="password" name="Confirm Password" value="Confirm Password"/>
-            <br/>
-            <br/>
-            <button type="submit">Submit</button>
-            <br/>
-            <br/>
-            <a href="https://amazon.com"><img src="Assets/amazonicon.png" width="35px"></a>
-            <a href="https://facebook.com"><img src="Assets/facebookicon.png" width="35px"></a>
-            <a href="https://github.com"><img src="Assets/githubicon.png" width="35px"></a>
-            <a href="https://instagram.com"><img src="Assets/instaicon.png" width="35px"></a>
-            <a href="https://slack.com"><img src="Assets/slackicon.png" width="35px"></a>
-            <a href="https://twitter.com"><img src="Assets/twittericon.png" width="35px"></a>
+            <div id="icon-tray">
+                <a href="https://amazon.com"><img class="icon" src="Assets/amazonicon.png" width="35px"></a>
+                <a href="https://facebook.com"><img class="icon" src="Assets/facebookicon.png" width="35px"></a>
+                <a href="https://github.com"><img class="icon" src="Assets/githubicon.png" width="35px"></a>
+                <a href="https://instagram.com"><img class="icon" src="Assets/instaicon.png" width="35px"></a>
+                <a href="https://slack.com"><img class="icon" src="Assets/slackicon.png" width="35px"></a>
+                <a href="https://twitter.com"><img class="icon" src="Assets/twittericon.png" width="35px"></a>
+            </div>
         </form>
     </div>
 </body>
